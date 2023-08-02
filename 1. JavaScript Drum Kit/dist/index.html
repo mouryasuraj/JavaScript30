@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drun Kit</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Title -->
+    <a href="index.html">
+        <h2 class="text-center text-slate-200 text-3xl border-b-4 border-b-slate-500 p-4 cursor-pointer bg-slate-800">
+            Drum Kit</h2>
+    </a>
+    <div class="w-full h-[90vh] flex flex-wrap items-center justify-center">
+        <!-- Keys Started -->
+        <div class="keys flex h-fit">
+            <!-- KeyA -->
+            <div data-key="65" class="key text-center cursor-pointer border-[1px] border-solid rounded-sm border-black px-[20px] mx-[10px] py-[10px]">
+                <kbd>A</kbd>
+                <p class="sound text-sm">Guitar</p>
+            </div>
+            <!-- KeyS -->
+            <div data-key="83" class=" key text-center cursor-pointer border-[1px] border-solid rounded-sm border-black px-[20px] mx-[10px] py-[10px]">
+                <kbd>S</kbd>
+                <p class="sound text-sm">Punch</p>
+            </div>
+            <!-- KeyD -->
+            <div data-key="68" class="key text-center cursor-pointer border-[1px] border-solid rounded-sm border-black px-[20px] mx-[10px] py-[10px]">
+                <kbd>D</kbd>
+                <p class="sound text-sm">Jump</p>
+            </div>
+            <!-- KeyF -->
+            <div data-key="70" class="key text-center cursor-pointer border-[1px] border-solid rounded-sm border-black px-[20px] mx-[10px] py-[10px]">
+                <kbd>F</kbd>
+                <p class="sound text-sm">Dog</p>
+            </div>
+            <!-- KeyA -->
+            <div data-key="71" class="key text-center cursor-pointer border-[1px] border-solid rounded-sm border-black px-[20px] mx-[10px] py-[10px]">
+                <kbd>G</kbd>
+                <p class="sound text-sm">Clap</p>
+            </div>
+            <!-- KeyH -->
+            <div data-key="72" class="key text-center cursor-pointer border-[1px] border-solid rounded-sm border-black px-[20px] mx-[10px] py-[10px]">
+                <kbd>H</kbd>
+                <p class="sound text-sm">Fire</p>
+            </div>
+            <!-- Keys Ended -->
+        </div>
+    </div>
+
+    <audio data-key="65" src="./audio/mixkit-acute-guitar-single-string-2325.wav"></audio>
+    <audio data-key="83" src="./audio/mixkit-air-whistle-punch-2048.wav"></audio>
+    <audio data-key="68" src="./audio/mixkit-arcade-game-jump-coin-216.wav"></audio>
+    <audio data-key="70" src="./audio/mixkit-dog-barking-twice-1.wav"></audio>
+    <audio data-key="71" src="./audio/mixkit-one-clap-481.wav"></audio>
+    <audio data-key="72" src="./audio/mixkit-wizard-fire-woosh-1326.wav"></audio>
+    <script src="./script.js"></script>
+</body>
+
+</html>
