@@ -1,4 +1,4 @@
-# JavaScript30
+# JavaScript_Projects
 
 ### In this Repo, I have started making JavaScript projects for practice. You can review the projects and if there is anything to update or you need to improve the code then you can contribute to this project.
 
