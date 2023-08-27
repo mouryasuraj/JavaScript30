@@ -12,6 +12,7 @@
 # 2. [Analogy Clock](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/2.%20Clock)
 # 3. [Color Flipper](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/3.%20Color%20Flipper)
 # 4. [Simple Counter](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/4.%20Counter)
+# 5. [Review Card Slider](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/5.%20Review%20Card%20Slider)
 
 <br>
 
