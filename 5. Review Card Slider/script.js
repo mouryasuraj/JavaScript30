@@ -58,7 +58,7 @@ function showPerson() {
 // show Next person
 next.addEventListener('click', ()=>{
     currentNumber++;
-    if(currentNumber >  profile.length -1){
+    if(currentNumber >  profile.length - 1){
         currentNumber = 0;
     }
     showPerson()
