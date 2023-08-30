@@ -1,0 +1,122 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    font-size: 10px;
+    background-color: aliceblue;
+}
+
+/* nav-header */
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-header #menubar{
+    font-size: 3em;
+    color: rgb(19, 10, 74);
+    padding: 20px 40px 0 0;
+    cursor: pointer;
+}
+
+/* aside */
+aside .logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3em;
+}
+aside .logo{
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+aside .closebar{
+    font-size: 3.5em;
+    cursor: pointer;
+    transition: all .5s;
+}
+aside .closebar:hover{
+    transform: rotate(360deg);
+}
+
+aside{
+    padding-bottom: 4em;
+    width: 400px;
+    transform: translate(-150%);
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all ease .5s;
+}
+ .nav-links{
+    list-style: none;
+    width: 400px;
+ }
+ .nav-links li{
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 20px;
+ }
+ .nav-links li:hover{
+    background-color: rgb(251, 175, 175);
+ }
+.nav-links li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+/* socail links */
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+.social-links li{
+    font-size: 3em;
+    cursor: pointer;
+}
+.social-links li a{
+    text-decoration: none;
+    color: rgb(67, 180, 224);
+}
+.social-links li a:hover{
+    color: rgb(17, 124, 167);
+}
+.show-sidebar{
+    transform: translate(0);
+}
+
+
+
+/* media Queries */
+@media screen and (max-width:600px) {
+    aside{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    .nav-header #menubar{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+    }
+    .nav-links{
+        width: 100%;
+     }
+}
