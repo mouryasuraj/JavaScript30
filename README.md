@@ -14,6 +14,7 @@
 # 4. [Simple Counter](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/4.%20Counter)
 # 5. [Review Card Slider](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/5.%20Review%20Card%20Slider)
 # 6. [Simple Navbar](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/6.%20Navbar)
+# 7. [Modal](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/8.%20Modal)
 
 <br>
 
