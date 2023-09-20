@@ -16,6 +16,7 @@
 # 6. [Simple Navbar](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/6.%20Navbar)
 # 7. [Side Bar](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/7.%20Side%20Bar)
 # 8. [Modal](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/8.%20Modal)
+# 9. [Github Profile Info](https://github.com/mouryasuraj/JavaScript_Projects/tree/main/9.%20Github%20Profile%20Info)
 
 <br>
 
