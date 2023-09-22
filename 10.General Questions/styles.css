@@ -1,0 +1,107 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common CSS Started */
+body,html{
+    font-size: 10px;
+    background-color: rgb(34, 35, 37);
+    color: skyblue;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-space-btwn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Common CSS Ended */
+
+/* main started */
+main{
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+/* title */
+.title{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.section-center{
+    width: 100%;
+    max-width: 60em;
+}
+
+/* question */
+.question{
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: 2px solid skyblue;
+    margin: 20px 0;
+}
+.question-title{
+    padding:10px 0;
+}
+.question-title p{
+    text-transform: capitalize;
+    font-size: 2em;
+}
+/* button */
+.question-btn{
+    padding: 0 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all .8s;
+}
+.question-btn:hover{
+    transform: rotate(90deg);
+}
+.plus-icon{
+    font-size: 2em;
+    color: skyblue;
+}
+.minus-icon{
+    font-size: 2em;
+    color: skyblue;
+    display: none;   
+}
+
+/* answer */
+.answer{
+    padding: 10px 0;
+    border-top: 1px solid skyblue;
+    font-size: 1.2em;
+}
+
+
+/* hide text */
+.answer{
+    display: none;
+}
+.showText .answer{
+    display: block;
+}
+.showText .plus-icon{
+    display: none;
+}
+.showText .minus-icon{
+    display: block;
+}
+
+/* main ended */

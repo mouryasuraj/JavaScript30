@@ -63,7 +63,7 @@ const showData = () => {
         <p> <span>Github Profile:</span> <a target='_blank' href="${userData.html_url}">${userData.html_url}</a></p>
         <i class="fa-solid fa-xmark closeCard"></i> 
         `
-        showModal();
+    showModal();
 }
 
 // showModal
