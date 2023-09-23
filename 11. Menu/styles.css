@@ -25,6 +25,7 @@ body,html{
 
 .menu{
     width: 100%;
+    padding: 1em 2em;
 }
 
 /* title */
@@ -48,6 +49,7 @@ body,html{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
     margin: 3em 0;
 }
@@ -71,4 +73,106 @@ body,html{
 }
 /* Button container Ended */
 
+
+
+/* menu-list started */
+
+.menu-list{
+    width: 100%;
+    max-width: 80%;
+    margin: 8em auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* menu-item */
+.menu-item{
+    width: 100%;
+    max-width: 56em;
+    display: flex;
+    justify-content: space-between; 
+}
+.menu-item .photo{
+    max-width: 23em;
+    width: 100%;
+    border: 5px solid rgb(172, 206, 224);
+    border-radius: 5px;
+    height: 179px;
+}
+.menu-item img{
+    width: 100%;
+    height: 100%;
+}
+.menu-item .item-info{
+    width: 100%;
+    max-width: 32em;
+}
+.menu-item .item-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 1px solid;
+}
+.menu-item .item-header p:first-child{
+    color: rgb(224, 240, 246);
+}
+.menu-item .item-header p:last-child{
+    color: rgb(245, 245, 140);
+}
+.menu-item .item-text{
+    padding: 20px 0 0 0;
+    font-size: 1.6em;
+}
+
+/* menu-list ended */
+
 /* section menu Ended */
+
+
+
+
+/* Media Query */
+@media screen and (max-width:1520px) {
+    /* body */
+    .menu-list{
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:778px) {
+    /* body */
+    body,html{
+        font-size: 9px;
+    }
+    .menu-item .item-info{
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    /* body */
+    body,html{
+        font-size: 8px;
+    }
+    /* menulist */
+    .menu-item{
+       flex-direction: column; 
+       /* align-items: center; */
+    }
+    .menu-item .photo, .menu-item .item-info{
+        max-width: none;
+        margin-bottom: 20px;
+    }
+    .menu-item .item-info{
+        max-width: none;
+        margin-bottom: 35px;
+        padding-left: 0;
+    }
+}
