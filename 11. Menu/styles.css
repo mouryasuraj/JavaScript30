@@ -63,6 +63,7 @@ body,html{
     border-radius: 2px;
     background-color: rgb(238, 238, 238);
     transition: all ease .3s;
+    text-transform: capitalize;
 }
 .buttons-container .filter-button:hover{
     box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.4);
